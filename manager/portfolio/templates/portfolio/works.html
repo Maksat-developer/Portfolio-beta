@@ -1,0 +1,234 @@
+{% extends 'base.html' %}
+
+{% block content  %}
+ <!-- works
+    ================================================== -->
+    <section id="works" class="s-works target-section">
+
+        <div class="row heading-block heading-block--center" data-aos="fade-up">
+            <div class="column large-full">
+                <h2 class="section-heading section-heading--centerbottom">Избранные работы</h2>
+                <p class="section-desc">
+                    Вот некоторые из моих избранных работ, которые я сделал в последнее время. Не стесняйтесь
+                    Проверь их.
+                </p>
+            </div>
+        </div> <!-- end heading-block -->
+
+        <div class="masonry-wrap">
+
+            <div class="masonry">
+                <div class="grid-sizer"></div>
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="{% static 'images/portfolio/gallery/g-city-building.jpg' %}" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                                <img src="{% static 'images/portfolio/city-building.jpg' %}"
+                                     srcset="{% static 'images/portfolio/fuji.jpg' %}
+                                     {% static 'images/portfolio/fuji@2x.jpg' %}" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Городское здание
+                            </h4>
+                            <p class="item-folio__cat">
+                                Брендинг
+                            </p>
+                        </div>
+
+                        <div class="item-folio__caption">
+                            <p>Но это раздражало, или было рождено, чтобы поймать его. И раз никогда. Во времена праведников, откуда приходит боль разврата и не только.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="{% static 'images/portfolio/gallery/g-woodcraft.jpg' %}" class="thumb-link" title="Woodcraft" data-size="1050x700">
+                                <img src="{% static 'images/portfolio/woodcraft.jpg' %}"
+                                     srcset="{% static 'images/portfolio/fuji.jpg' %}
+                                     {% static 'images/portfolio/fuji@2x.jpg' %}" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Вудкрафт
+                            </h4>
+                            <p class="item-folio__cat">
+                                Веб-дизайн
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Но это раздражало, или было рождено, чтобы поймать его. И раз никогда. Во времена праведников, откуда приходит боль разврата и не только.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="{% static 'images/portfolio/gallery/g-beetle.jpg' %}" class="thumb-link" title="The Beetle Car" data-size="1050x700">
+                                <img src="{% static 'images/portfolio/the-beetle.jpg' %}"
+                                     srcset="{% static 'images/portfolio/fuji.jpg' %}
+                                     {% static 'images/portfolio/fuji@2x.jpg' %}" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Жук
+                            </h4>
+                            <p class="item-folio__cat">
+                                Веб-разработка
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Но это раздражало, или было рождено, чтобы поймать его. И раз никогда.
+                                Во времена праведников, откуда приходит боль разврата и не только.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="{% static 'images/portfolio/gallery/g-shutterbug.jpg' %}" class="thumb-link" title="Grow Green" data-size="1050x700">
+                                <img src="{% static 'images/portfolio/shutterbug.jpg' %}"
+                                     srcset="{% static 'images/portfolio/fuji.jpg' %}
+                                     {% static 'images/portfolio/fuji@2x.jpg' %}" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Шаттербаг
+                            </h4>
+                            <p class="item-folio__cat">
+                                Брендинг
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Но это раздражало, или было рождено, чтобы поймать его.
+                                И раз никогда. Во времена праведников, откуда приходит боль разврата и не только.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="{% static 'images/portfolio/gallery/g-lamp.jpg' %}" class="thumb-link" title="Guitarist" data-size="1050x700">
+                                <img src="{% static 'images/portfolio/lamp.jpg' %}"
+                                     srcset="{% static 'images/portfolio/fuji.jpg' %}
+                                     {% static 'images/portfolio/fuji@2x.jpg' %}" alt="">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Фонарь
+                            </h4>
+                            <p class="item-folio__cat">
+                                Веб-дизайн
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Но это раздражало, или было рождено, чтобы поймать его. И раз никогда.
+                                Во времена праведников, откуда приходит боль разврата и не только.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="{% static 'images/portfolio/gallery/g-fuji.jpg' %}" class="thumb-link" title="Palmeira" data-size="1050x700">
+                                <img src="{% static 'images/portfolio/fuji.jpg' %}"
+                                     srcset="{% static 'images/portfolio/fuji.jpg' %}
+                                     {% static 'images/portfolio/fuji@2x.jpg' %}" alt="this photot">
+                            </a>
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a>
+                        </div>
+                        <div class="item-folio__text">
+                            <h4 class="item-folio__title">
+                                Фудзи
+                            </h4>
+                            <p class="item-folio__cat">
+                                Веб-дизайн
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Но это раздражало, или было рождено, чтобы поймать его. И раз никогда. Во времена праведников, откуда приходит боль разврата и не только.</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+            </div> <!-- end masonry -->
+
+        </div> <!-- end masonry-wrap -->
+
+    </section> <!-- end s-work -->
+
+  <!-- testimonies
+    ================================================== -->
+    <section class="s-testimonials">
+
+        <div class="row testimonials" data-aos="fade-up">
+
+            <div class="column large-full testimonials__slider">
+
+                <div class="testimonials__slide">
+                    <p>Настоящие досадные последствия любого инцидента, например, большие. Удовольствие — вопрос времени.
+                    Они могут искать способ объяснить, но они не думают, что это может иметь какую-то боль или последствия. Если боль стремится к бегству, то для нас ничего нет.
+                    Спасибо за тяготы, которые сопровождают выбранный вами порок.</p>
+                    <div class="testimonials__info">
+                        <img src="{% static 'images/avatars/user-02.jpg' %}" alt="Author image" class="testimonials__avatar">
+                        <cite class="testimonials__cite">
+                            <strong>Тим Кук</strong>
+                            <span>генеральный директор, Apple</span>
+                        </cite>
+                    </div>
+                </div> <!-- end testimonials__slide -->
+
+                <div class="testimonials__slide">
+                    <p>Прими его, ибо он отталкивает вину желанием облегчить боль. Простите тех, к достижению которых отталкивает удовольствие ума.
+                    Если только эти симптомы не последуют. Нам приятно встретить самых достойных обвинителей.
+                        Это как если бы удовольствие отличало. И большинство из них.</p>
+                    <div class="testimonials__info">
+                        <img src="{% static 'images/avatars/user-01.jpg' %}" alt="Author image" class="testimonials__avatar">
+                        <cite class="testimonials__cite">
+                            <strong>красивые пичаи</strong>
+                            <span>генеральный директор, Google</span>
+                        </cite>
+                    </div>
+                </div> <!-- end testimonials__slide -->
+
+                <div class="testimonials__slide">
+                    <p>Отталкивает самых достойных свободы. Но тот, кто ненавидит беспрепятственное удовольствие, развращен. Я ничего об этом не знаю. Мы думаем либо, но не это.
+                    Более того, мы обвиняем эти услуги в удовольствии. Это как если бы удовольствие отличало.
+                    Это удовольствие для самых достойных.</p>
+                    <div class="testimonials__info">
+                        <img src="{% static 'images/avatars/user-04.jpg' %}" alt="Author image" class="testimonials__avatar">
+                        <cite class="testimonials__cite">
+                            <strong>Правда это Наделла</strong>
+                            <span>генеральный директор, Майкрософт</span>
+                        </cite>
+                    </div>
+                </div> <!-- end testimonials__slide -->
+
+            </div> <!-- end testimonials__slider -->
+
+        </div> <!-- end testimonials -->
+
+    </section> <!-- end s-testimonials -->
+
+{% endblock %}

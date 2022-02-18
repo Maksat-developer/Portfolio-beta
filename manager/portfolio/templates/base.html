@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+{% load static %}
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Персональлный</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <link rel="stylesheet" href="{% static 'css/vendor.css' %}">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+
+    <!-- script
+    ================================================== -->
+    <script src="{% static 'js/modernizr.js' %}"></script>
+    <script src="{% static 'js/pace.min.js' %}"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="f{% static 'favicon-16x16.png' %}">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body id="top">
+
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+    <!-- site header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="">
+                <p>
+                    Back to top
+                </p>
+            </a>
+        </div>
+
+        <nav class="header-nav-wrap">
+            <ul class="header-main-nav">
+
+                <li><a class="smoothscroll" href="#about" title="about">About</a></li>
+                <li><a class="smoothscroll" href="#services" title="services">Services</a></li>
+                <li><a class="smoothscroll" href="#works" title="works">Works</a></li>
+                <li><a class="smoothscroll" href="#contact" title="contact">Contact</a></li>
+            </ul>
+
+            <ul class="header-social">
+                <li><a href="https://www.facebook.com/profile.php?id=100069791001662"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                 <li><a href="https://github.com/Ciber-401"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/big.01.user/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="https://t.me/Ciber_401"><i class="fab fa-telegram" aria-hidden="true"></i></a></li>
+
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+
+{% include 'header.html' %}
+
+{% block content %}
+{% endblock %}
+
+   <section id="contact" class="s-contact ss-dark target-section">
+
+        <div class="row heading-block" data-aos="fade-up">
+            <div class="column large-full">
+                <a href=""></a> <h2 class="section-heading">Связаться</h2>
+            </div>
+        </div>
+
+        <div class="row contact-main" data-aos="fade-up">
+            <div class="column large-full">
+                <p class="contact-email">
+                    <a href="mailto:kydyrov2001@list.ru">kydyrov2001@list.ru</a>
+                </p>
+
+                <p class="section-desc">
+                Буду рад общению, выслушаю и помогу. Давайте работать вместе и строить
+                что-то потрясающее. Давайте превратим вашу идею в еще более качественный продукт.
+                <a href="https://www.linkedin.com/in/maksat-kydyrov-81129a228/">Linkedin</a>.
+                </p>
+            </div>
+        </div>
+
+        <div class="row contact-infos" data-aos="fade-up" data-aos-anchor=".contact-main">
+
+            <div class="column large-5 medium-full contact-phone">
+                <h4>Мой рабочий номер</h4>
+                <a>+996 778 402 001</a>
+            </div>
+
+            <div class="column large-7 medium-full contact-social">
+                <h4>Социальное</h4>
+                <ul>
+                    <li><a href="https://www.instagram.com/big.01.user/" title="Instagram">Instagram</a></li>
+                    <li><a href="https://github.com/Ciber-401" title="Gihub">Gihub</a></li>
+                    <li><a href="https://t.me/Ciber_401" title="Telegram">Telegram</a></li>
+
+                </ul>
+                <ul><li><a href="https://www.facebook.com/profile.php?id=100069791001662" title="Facebook">Facebook</a></li></ul>
+            </div>
+
+        </div> <!-- end contact-infos -->
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div><!-- end photoSwipe background -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+    <script src="{% static 'js/plugins.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+
+</body>
